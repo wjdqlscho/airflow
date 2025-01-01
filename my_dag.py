@@ -6,9 +6,9 @@ def my_task():
     print("Hello, Airflow!")
 
 default_args = {
-    'owner': 'jungbin1486',
+    'owner': '-------',
     'depends_on_past': False,
-    'email': ['jungbin1486@hanmail.net'],
+    'email': ['---------------'],
     'email_on_failure': False,
     'email_on_retry': False,
     'retries': 1,
